@@ -82,8 +82,9 @@ img{
     margin: 0 auto;
   }
 
-  .row h1{
-    width: 40%;
+  .row h1, #why .row h1, #steps .row h1 {
+    width: calc(100vw - 18px);
+    padding-top: 10px;
   }
 
   #lezioni .row > .left, #lezioni .row > .right, #steps .row > .left, #steps .row > .central, #steps .row > .right {
@@ -94,7 +95,7 @@ img{
   }
 
   #why .row > .first, #why .row > .second, #why .row > .third {
-    width: 40%;
+    width: calc(100vw - 18px);
     margin-top: 0;
   }
 
